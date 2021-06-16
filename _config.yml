@@ -1,4 +1,20 @@
 title: Meridian Tech Ltd
-description: >
-  Software consultancy
-theme: jekyll-theme-slate
+email: info@meridiantech.io
+baseurl: ""
+domain: "meridiantech-io.github.io"
+url: "https://meridiantech-io.github.io"
+github_username:  meridiantech-io
+google_analytics: G-WNC5LX82N5
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
